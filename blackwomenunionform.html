@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blackwomenunionform.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Black Women's Student Union - Student Survey</h1>
+          <p id="description" class="description text-center">
+            Thank you for taking the time to improve our school experience.
+          </p>
+        </header>
+          <form id="survey-form">
+            <div class="form-group">
+              <label id="name-label"
+                     for="name">Name:</label>
+              <input
+                     type="text"
+                     name="name"
+                     id="name"
+                     class="form-control"
+                     placeholder="Enter your name"
+                     required
+                     />
+            </div>
+          <div class="form-group">
+            <label id="email-label"
+                   for="email">Email:</label>
+            <input
+                   type="email"
+                   name="email"
+                   id="email"
+                   class="form-control"
+                   placeholder="Enter your email adress"
+                   required
+                   />
+            </div>
+            <div class="form-group">
+              <label id="number-label"
+                     for="number">Age:<span class="clue">(optional)</span></label>
+              <input
+                     type="number"
+                     name="age"
+                     id="number"
+                     min="13"
+                     max="99"
+                     class="form-control"
+                     placeholder="Age"
+                 />
+            </div>
+            <div class="form-group">
+              <p>What is your classification?</p>
+              <select id="dropdown" name="role"
+            class="form-control" required>
+                <option disabled selected value>Select current classification</option>
+                <option value="freshman">Freshman</option>
+                <option
+      value="sophomore">Sophomore</option>
+                <option
+      value="junior">Junior</option>
+                <option
+      value="senior">Senior</option>
+                <option
+      value="graduate-student">Graduate Student</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <p>How satisfied are you with your college experience thus far?</P>
+            <label>
+              <input
+              name="student-experience"
+                     value="completely-s"
+                     type="radio"
+                     class="input-radio"
+                     checked
+                     />Completely satisfied</label>
+            <label>
+              <input
+               name="student-experience"
+                     value="somewhat-s"
+                     type="radio"
+                     class="input-radio"
+                     />Somewhat satisfied</label>
+            <label>
+              <input
+               name="student-experience"
+                     value="somewhat-u"
+                     type="radio"
+                     class="input-radio"
+                     />Somewhat unsatisfied</label>
+            <label>
+              <input
+               name="student-experience"
+                     value="completely-u"
+                     type="radio"
+                     class="input-radio"
+                     />Completely unsatisfied</label>
+            <div class="form-group">
+              <p>What aspects of the student experience do you enjoy the most?<span class="clue">(Check all that apply)
+                </span>
+              </p>
+              
+              <label>
+                <input
+                 name="best"
+                 value="organizatons"
+                 type="checkbox"
+                 class="input-checkbox"
+                 />Student Organizations</label>
+                
+              <label>
+                <input
+                     name="best"
+                     value="environment"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Learning Environment</label>
+            <label>
+              <input
+                     name="best"
+                     value="social"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Student Social Life</label>
+            <label>
+              <input
+                     name="best"
+                     value="career"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Career Preparation</label>
+              <label>
+                <input
+                       name="best"
+                       value="support"
+                       type="checkbox"
+                       class="input-checkbox"
+                       />Academic Support</label>
+            <label>
+              <input
+                     name="best"
+                     value="residences"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Student Residences</label>
+            </div>
+            <div class="form-group">
+              <p>What aspects would you like to see improved?<span class="clue">(Check all that apply)
+                </span>
+              </p>
+              
+              <label>
+                <input
+                 name="best"
+                 value="organizatons"
+                 type="checkbox"
+                 class="input-checkbox"
+                 />Student Organizations</label>
+                
+              <label>
+                <input
+                       name="best"
+                       value="environment"
+                       type="checkbox"
+                       class="input-checkbox"
+                       />Learning Environment</label>
+            <label>
+              <input
+                     name="best"
+                     value="social"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Student Social Life</label>
+            <label>
+              <input
+                     name="best"
+                     value="career"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Career Preparation</label>
+              <label>
+                <input
+                       name="best"
+                       value="support"
+                       type="checkbox"
+                       class="input-checkbox"
+                       />Academic Support</label>
+            <label>
+              <input
+                     name="best"
+                     value="residences"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Student Residences</label>
+            </div>
+              <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea
+                     id="comments"
+                     class="input-textarea"
+                     name="comment"
+                     placeholder="Enter your comment here..."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type=submit id="submit" class="submit-buttom">
+                  Submit
+                </button>
+              </div>
+              </form>
+            </div>
+</body>
+</html>
